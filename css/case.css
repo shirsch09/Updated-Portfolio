@@ -1,0 +1,182 @@
+
+/* CASE STUDY PAGES */
+
+.case-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 10%;
+    background: #FFFFFF;
+}
+
+.case-nav a {
+    text-decoration: none;
+    color: #392B45;
+    margin-left: 25px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.case-nav .nav-logo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    margin-left: 0;
+}
+
+.case-hero {
+    padding: 100px 10% 70px;
+    background: #F9F6FB;
+}
+
+.case-label {
+    color: #85649A;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.case-hero h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: clamp(42px, 7vw, 76px);
+    line-height: 1.15;
+    color: #392B45;
+    max-width: 850px;
+    margin-bottom: 20px;
+}
+
+.case-hero h1 span {
+    color: #85649A;
+}
+
+.case-subtitle {
+    color: #6F6873;
+    font-size: 19px;
+    max-width: 600px;
+    line-height: 1.7;
+}
+
+.case-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    margin: 45px 0;
+}
+
+.case-details span {
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    color: #85649A;
+}
+
+.case-details p {
+    color: #392B45;
+    margin-top: 8px;
+}
+
+.case-hero-image img {
+    width: 100%;
+    max-height: 550px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.case-section {
+    padding: 90px 15%;
+    background: white;
+}
+
+.case-section h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: clamp(30px, 4vw, 46px);
+    color: #392B45;
+    max-width: 700px;
+    margin-bottom: 25px;
+}
+
+.case-section > p:not(.case-label) {
+    max-width: 700px;
+    font-size: 17px;
+    line-height: 1.9;
+    color: #6F6873;
+}
+
+.case-highlight {
+    background: #F9F6FB;
+}
+
+.case-image-placeholder {
+    min-height: 300px;
+    margin-top: 40px;
+    border-radius: 15px;
+    background: #E9DFF2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #76518C;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px;
+}
+
+.case-button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 14px 25px;
+    background: #76518C;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.case-button:hover {
+    background: #392B45;
+}
+
+.case-footer {
+    padding: 40px 10%;
+    background: #392B45;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.case-footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.case-footer p {
+    font-size: 13px;
+}
+
+@media (max-width: 768px) {
+    .case-nav {
+        padding: 20px 7%;
+    }
+
+    .case-nav a {
+        margin-left: 12px;
+    }
+
+    .case-hero {
+        padding: 70px 7% 50px;
+    }
+
+    .case-details {
+        gap: 25px;
+    }
+
+    .case-section {
+        padding: 65px 7%;
+    }
+
+    .case-footer {
+        padding: 35px 7%;
+    }
+}

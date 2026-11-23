@@ -32,13 +32,13 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#welcome">About</a>
+            <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#skills">Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#vue_app">Gallery</a>
+            <a class="nav-link" href="#projects"> My Work</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#contact">Contact</a>
@@ -49,20 +49,68 @@
   </nav>
  
   <!-- Welcome Section -->
-  <section id="welcome" class="welcome-section py-5">
-    <div class="container">
-      <div class="row align-items-center gy-4">
-        <div class="col-md-4 text-center">
-          <div id="move"> <img src="imgs/sr.jpeg" class="profile-img img-fluid rounded-circle shadow" alt="pic of me" />
-          </div>
-        </div>
-        <div class="col-md-8 text-md-start text-center" id="move">
-          <h2 class="fw-bold mb-3">Hi, I'm Samantha Hirsch!</h2>
-          <p class="lead mb-0">
-         I’m a sophomore at Michigan State University majoring in Experience Architecture. I’m interested in combining design, technology, and problem-solving to create meaningful digital experiences. I enjoy working across web design, UI/UX, graphic design, and visual communication, and I’m always looking for opportunities to learn and explore new ideas.
+ <section class="hero" id="home">
 
-       <br> <a href="imgs/Resume Samantha Hirsch (2).pdf" target="_blank" class="resume-btn">
-  View My Resume
+            <div class="hero-content">
+                <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+
+                <h1>
+                    Hi, I'm <span>Samantha Hirsch.</span>
+                </h1>
+
+                <h2>Design. Develop. Create.</h2>
+
+                <p class="hero-description">
+                    I'm an Experience Architecture student at Michigan State University
+                    interested in the intersection of design and technology.
+                    I enjoy creating digital experiences that are both visually
+                    engaging and easy to use.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn-primary">Explore My Work</a>
+                    <a href="#contact" class="btn-secondary">Get in Touch</a>
+                </div>
+            </div>
+
+        </section>
+
+
+<!-- ABOUT SECTION -->
+<section id="about" class="about">
+    <div class="about-container">
+
+        <div class="about-image">
+            <img src="imgs/sr.jpeg" alt="Photo of Samantha">
+        </div>
+
+        <div class="about-content">
+            <p class="section-label">GET TO KNOW ME</p>
+
+            <h2>About Me</h2>
+
+            <p>
+                I am a sophomore studying Experience Architecture with a minor in buisness.
+            </p>
+
+            <p>
+                I'm especially interested in web design, user experience,
+                and visual design. I enjoy exploring how thoughtful design
+                and interactive elements can make websites and applications
+                more engaging and accessible.
+            </p>
+
+
+
+            <a href="imgs/Samantha Hirsch - Resume (5).pdf"
+               class="btn-primary" target="_blank">
+                View My Resume
+            </a>
+        </div>
+
+    </div>
+</section>
+
 </a>
 </div>
       </p>
@@ -71,157 +119,149 @@
     </div>
   </section>
   <!-- Skills Section -->
-  <section id="skills" class="skills-section py-5">
-    <div class="container">
-      <div class="text-center">
-        <h2 class="text-center fw-bold mb-4">Skills</h2>
-      </div>
-      <div class="row justify-content-center gx-4 gy-4 mt-3">
-        <!-- HTML Card -->
-        <div class="col-6 col-md-4">
-          <div class="card text-center h-100">
-            <div class="card-body">
-              <img src="imgs/realhtml.png" alt="HTML Logo" class="img-fluid mb-3" style="max-height: 80px;">
-              <h5 class="card-title">HTML</h5>
-              <p class="card-text">I use HTML to build the structure and content of websites.</p>
-            </div>
-          </div>
+  
+<!-- SKILLS SECTION -->
+<section id="skills" class="skills">
+    <div class="skills-container">
+
+        <div class="skills-heading">
+            <p class="section-label">WHAT I WORK WITH</p>
+            <h2>My Skills</h2>
+            <p>Tools and skills I use to bring creative ideas to life.</p>
         </div>
-        <!-- CSS Card -->
-        <div class="col-6 col-md-4">
-          <div class="card text-center h-100">
-            <div class="card-body">
-              <img src="imgs/realcss.png" alt="CSS Logo" class="img-fluid mb-3" style="max-height: 80px;">
-              <h5 class="card-title">CSS</h5>
-              <p class="card-text">I use CSS to style websites and create responsive, visually appealing layouts.</p>
+
+        <div class="skills-groups">
+
+            <!-- DESIGN SKILLS -->
+            <div class="skill-group">
+                <h3>Design</h3>
+
+                <div class="skill-list">
+                    <div class="skill-card">
+                        <span class="skill-icon">✳</span>
+                        <span>Figma</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <span class="skill-icon">✎</span>
+                        <span>Adobe Illustrator</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <span class="skill-icon">◈</span>
+                        <span>Adobe Photoshop</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <span>Typography</span>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-        <!-- JavaScript Card -->
-        <div class="col-6 col-md-4">
-          <div class="card text-center h-100">
-            <div class="card-body">
-              <img src="imgs/realjs.png" alt="JavaScript Logo" class="img-fluid mb-3" style="max-height: 80px;">
-              <h5 class="card-title">JavaScript</h5>
-              <p class="card-text">I use JavaScript to add interactivity and functionality to websites.</p>
+
+            <!-- DEVELOPMENT SKILLS -->
+            <div class="skill-group">
+                <h3>Development</h3>
+                <p class="skill-subtitle">Building functional digital experiences</p>
+
+                <div class="skill-list">
+                    <div class="skill-card">
+                        <span class="skill-icon">&lt;/&gt;</span>
+                        <span>HTML</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <span class="skill-icon">#</span>
+                        <span>CSS</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <span class="skill-icon">JS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
             </div>
-          </div>
+
         </div>
-        <!-- Bootstrap Card -->
-        <div class="col-6 col-md-4">
-          <div class="card text-center h-100">
-            <div class="card-body">
-              <img src="imgs/dbc32aa496f21ffa8508a4f6432d1e6c6f76e3b1.avif" alt="Bootstrap Logo" class="img-fluid mb-3" style="max-height: 80px;">
-              <h5 class="card-title">Figma</h5>
-              <p class="card-text">I use Figma to create interfaces, layouts, and digital designs.</p>
-            </div>
-          </div>
-        </div>
-        <!-- Vue.js Card -->
-        <div class="col-6 col-md-4">
-          <div class="card text-center h-100">
-            <div class="card-body">
-              <img src="imgs/Adobe_Illustrator_CC_icon-1.svg.webp" alt="Vue.js Logo" class="img-fluid mb-3" style="max-height: 80px;">
-              <h5 class="card-title">Adobe Illustator</h5>
-              <p class="card-text">I use Illustrator to create graphics, logos, and vector designs.</p>
-            </div>
-          </div>
-        </div>
-        <!-- Photoshop Card -->
-        <div class="col-6 col-md-4">
-          <div class="card text-center h-100">
-            <div class="card-body">
-              <img src="imgs/photoshop.png" alt="Photoshop Logo" class="img-fluid mb-3" style="max-height: 80px;">
-              <h5 class="card-title">Adobe Photoshop</h5>
-              <p class="card-text">I use Photoshop to create logos and images.</p>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
-  </section>
+</section>
 
   <!--end of skills -->
 
 
    <!--start of gallery-->
-  <section id="vue_app" class="container py-5">
-    <div class="text-center">
-      <h1 class="text-center my-3">{{ pageTitle }}</h1>
-    </div>
-    <p class="text-center text-muted mb-4 fs-5">
-     Explore my projects and click to learn more.
-    </p>
-    <div class="parallax-grid">
-      <div class="project-container parallax-item" v-for="(project, index) in projects" :key="index">
-        <img :src="project.bgImage" class="project-image" :alt="project.title" />
-        <h5 class="text-overlay">{{ project.title }}</h5>
-        <div class="overlay">
-          <button class="btn-view-project" @click="openModal(index)">
-            View Project
-          </button>
+ 
+<!-- PROJECTS SECTION -->
+<section id="projects" class="projects">
+    <div class="projects-container">
+
+        <div class="projects-heading">
+            <p class="section-label">MY WORK</p>
+            <h2>Featured Projects</h2>
+            <p>A collection of projects exploring design, technology, and user experience.</p>
         </div>
-      </div>
-    </div>
 
-     <!-- Modals -->
-    <div v-for="(project, index) in projects" :key="'modal-'+index">
-      <div class="modal fade" :id="'carouselModal' + index" tabindex="-1" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title">{{ project.modalTitle }}</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <!-- IMAGE SLIDES -->
+        <div class="project-grid">
 
-              <!-- VIDEO -->
-<div class="carousel-item active" v-if="project.type === 'video'">
-  <video class="d-block w-100" controls>
-    <source :src="project.file" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>
-
-<!-- IMAGE SLIDES -->
-              <template v-for="(image, imgIndex) in project.images" :key="'image-' + imgIndex">
-                <div class="carousel-item" :class="{ active: !project.video && imgIndex === 0 }">
-                  <a :href="project.link" target="_blank" v-if="project.link">
-                    <img :src="image" class="d-block w-100" :alt="'Image ' + imgIndex" style="cursor: pointer;" />
-                  </a>
-                  <img v-else :src="image" class="d-block w-100" :alt="'Image ' + imgIndex" />
+            <!-- PROJECT 1 -->
+            <a href="uber.html" class="project-card">
+                <div class="project-image">
+                    <img src="imgs/finalfigma.png" alt="Uber app redesign">
                 </div>
-              </template>
-              </div>
+                <div class="project-info">
+                    <p class="project-category">UX DESIGN · FIGMA</p>
+                    <h3>Uber Cancellation Redesign</h3>
+                    <p>Exploring ways to give users more control and clarity during the ride cancellation process.</p>
+                    <span>View Case Study →</span>
+                </div>
+            </a>
 
-             <!-- Toggle Button and Description - OUTSIDE the carousel -->
-            <div class="text-center my-3">
-              <button class="btn-toggle-description" @click="project.showDescription = !project.showDescription">
-                {{ project.showDescription ? 'Hide Description' : 'Show Description' }}
-              </button>
-            </div>
+            <!-- PROJECT 2 -->
+            <a href="projects/friendship-circle.html" class="project-card">
+                <div class="project-image">
+                    <img src="imgs/friendship-project.jpg" alt="Friendship Circle website">
+                </div>
+                <div class="project-info">
+                    <p class="project-category">WEB DESIGN · DEVELOPMENT</p>
+                    <h3>Friendship Circle</h3>
+                    <p>Designing an accessible and user-friendly homepage to make information easier to find.</p>
+                    <span>View Case Study →</span>
+                </div>
+            </a>
 
-            <!-- Description Section -->
-            <div v-if="project.showDescription && project.description && project.description.length" class="mt-3">
-              <div class="text-center mb-2">
-                <h5 class="fw-bold">What I Did</h5>
-              </div>
-              <div class="d-flex justify-content-center">
-                <ul class="list-unstyled text-start" style="max-width: 600px">
-                  <li v-for="(item, i) in project.description" :key="'desc-' + i" class="mb-2" v-html="item">
-                  </li>
-                </ul>
-              </div>
-            </div>  
-             </div>
+            <!-- PROJECT 3 -->
+            <a href="projects/track-field.html" class="project-card">
+                <div class="project-image">
+                    <img src="imgs/track-project.jpg" alt="Track and field website">
+                </div>
+                <div class="project-info">
+                    <p class="project-category">WEB DEVELOPMENT</p>
+                    <h3>Track & Field Website</h3>
+                    <p>Building a website to help students, athletes, and families access team information.</p>
+                    <span>View Case Study →</span>
+                </div>
+            </a>
+
+            <!-- PROJECT 4 -->
+            <a href="projects/graphic-design.html" class="project-card">
+                <div class="project-image">
+                    <img src="imgs/graphic-project.jpg" alt="Graphic design project">
+                </div>
+                <div class="project-info">
+                    <p class="project-category">GRAPHIC DESIGN · ILLUSTRATOR</p>
+                    <h3>Illustration & Visual Design</h3>
+                    <p>Exploring visual communication, composition, and creative design through Adobe Illustrator.</p>
+                    <span>View Case Study →</span>
+                </div>
+            </a>
+
         </div>
-      </div>
+
+        <div class="projects-footer">
+            <p>More projects coming soon!</p>
+        </div>
+
     </div>
-    </div>
-    </div>
-    </div>
-  </section>
+</section>
 
   
 
