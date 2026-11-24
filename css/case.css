@@ -107,18 +107,12 @@
     background: #F9F6FB;
 }
 
-.case-image-placeholder {
-    min-height: 300px;
-    margin-top: 40px;
-    border-radius: 15px;
-    background: #E9DFF2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #76518C;
-    font-weight: 600;
-    text-align: center;
-    padding: 20px;
+.case-image {
+    width: 100%;
+    max-width: 900px;
+    margin: 40px auto;
+    overflow: hidden;
+    border-radius: 16px;
 }
 
 .case-button {
