@@ -112,3 +112,11 @@
         padding: 70px 7%;
     }
 }
+
+.projects-heading .section-label {
+    margin-bottom: 10px;
+}
+
+.projects-container.other-projects {
+    margin-top: 50px;
+}
